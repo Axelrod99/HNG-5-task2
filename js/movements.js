@@ -2,17 +2,17 @@
 
 const instructions = {
   button1:
-    "This button allows you to order a meal. It takes you a the Glovo web app to order your meal.",
+    "This button allows you to get the best of gowns in town. It takes you a page where you can view our rack of finesse.",
   button2:
-    "With this button, you have the luxury of opening the google search page in a new tab. Convenient right? I know.",
+    "This button allows you to get the shop the rarest of crop tops that goes with anything. It takes you a page where you can view our rack of finesse.",
   button3:
-    "Would you like to send an email? That is what this button helps you do. Open your mailing app with this button.",
+    "This button allows you to accessories that goes with your style and structure. It takes you a page where you can view our rack of finesse.",
   button4:
-    "Want to open your gmail messages in a new tab? This button helps you achieve that. Opens the Google mail website in new tab",
+    "This button shows you shop our bag for different occasions and style. It takes you a page where you can view our rack of finesse.",
   button5:
-    "Hmm, you want to watch a few videos to assist you with your task? Youtube should have what you need. Use this button to go to the Youtube page.",
+    "This button allows you to get shoes for every dress style. It takes you a page where you can view our rack of finesse.",
   button6:
-    "Are you interested in the Github repository for this project? Use this button to navigate to the Github repository.",
+    "This button takes you to pleasure and bliss. It takes you a page where you can view our calaogue.",
 };
 
 const allButtons = document.querySelectorAll("button");
@@ -26,7 +26,6 @@ const moveModelContainer = (xPos, yPos, height) => {
   modelWithTextContainer.style.left = `${xPos}px`;
   modelWithTextContainer.style.bottom = `unset`;
   modelWithTextContainer.style.right = `unset`;
-  //   modelWithTextContainer.getBoundingClientRect().x = xPos;
 };
 
 allButtons.forEach((button) =>
@@ -42,6 +41,5 @@ allButtons.forEach((button) =>
     console.log(xPos, yPos, height);
 
     moveModelContainer(xPos, yPos, height);
-    // modelWithTextContainer.style.display = "block";
   })
 );

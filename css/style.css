@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: rgba(235, 246, 246, 0.419);
   position: relative;
   min-height: 100vh;
   padding: 2rem;
@@ -15,8 +16,12 @@ body {
   align-items: center;
   justify-items: stretch;
 
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+
+h1 {
+  color: rgb(25, 25, 65);
 }
 
 .btn-all {
@@ -32,12 +37,12 @@ body {
 }
 
 button {
-  background-color: aliceblue;
-  border: 0.1rem solid gray;
+  background-color: rgb(193, 223, 248);
+  border: 0.1rem solid rgb(94, 93, 93);
   border-radius: 1rem;
   padding: 1.2rem;
   cursor: pointer;
-
+color: rgb(118, 116, 116);
   transition: all 0.4s ease-in-out;
 }
 
