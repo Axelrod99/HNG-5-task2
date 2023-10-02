@@ -6,9 +6,9 @@ const instructions = {
   button2:
     "This button allows you to get the shop the rarest of crop tops that goes with anything. It takes you a page where you can view our rack of finesse.",
   button3:
-    "This button allows you to accessories that goes with your style and structure. It takes you a page where you can view our rack of finesse.",
+    "This button allows you to shop accessories that goes with your style and structure. It takes you a page where you can view our rack of finesse.",
   button4:
-    "This button shows you shop our bag for different occasions and style. It takes you a page where you can view our rack of finesse.",
+    "This button shows you our bags collection for different occasions and style. It takes you a page where you can view our rack of finesse.",
   button5:
     "This button allows you to get shoes for every dress style. It takes you a page where you can view our rack of finesse.",
   button6:
